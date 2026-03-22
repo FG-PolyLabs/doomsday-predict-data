@@ -1,0 +1,50 @@
+[
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Unique row ID (hex)"
+  },
+  {
+    "name": "slug",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Exact Polymarket event slug (single-event mode)"
+  },
+  {
+    "name": "tag",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Polymarket tag slug (series-discovery mode)"
+  },
+  {
+    "name": "slug_prefix",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Prefix filter applied to tag results"
+  },
+  {
+    "name": "category",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Display category (e.g. Geopolitics, AI & Tech)"
+  },
+  {
+    "name": "active",
+    "type": "BOOL",
+    "mode": "REQUIRED",
+    "description": "Whether to include in daily runs"
+  },
+  {
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Row creation time (UTC)"
+  },
+  {
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Last modification time (UTC)"
+  }
+]

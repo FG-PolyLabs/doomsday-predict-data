@@ -1,0 +1,17 @@
+{"id":"geo0000001","slug":null,"tag":"us-iran","slug_prefix":"us-x-iran","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"geo0000002","slug":null,"tag":"russia-ukraine","slug_prefix":"russia-ukraine","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"geo0000003","slug":null,"tag":"israel-hamas","slug_prefix":"israel-hamas","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"geo0000004","slug":null,"tag":"china-taiwan","slug_prefix":"china-taiwan","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"geo0000005","slug":null,"tag":"north-korea","slug_prefix":"north-korea","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"pol0000001","slug":"trump-out-as-president-before-2027","tag":null,"slug_prefix":null,"category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"pol0000002","slug":null,"tag":"donald-trump","slug_prefix":"trump","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"pol0000003","slug":null,"tag":"us-elections","slug_prefix":"2026-midterm","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"pol0000004","slug":null,"tag":"us-congress","slug_prefix":"us-house","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"ait0000001","slug":null,"tag":"artificial-intelligence","slug_prefix":"will-ai","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"ait0000002","slug":null,"tag":"openai","slug_prefix":"openai","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"ait0000003","slug":null,"tag":"elon-musk","slug_prefix":"elon-musk","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"ait0000004","slug":null,"tag":"spacex","slug_prefix":"spacex","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"fin0000001","slug":null,"tag":"bitcoin","slug_prefix":"bitcoin-above","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"fin0000002","slug":null,"tag":"ethereum","slug_prefix":"ethereum-above","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"fin0000003","slug":null,"tag":"federal-reserve","slug_prefix":"fed-rate","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"fin0000004","slug":null,"tag":"recession","slug_prefix":"us-recession","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
