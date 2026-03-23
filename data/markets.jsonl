@@ -1,17 +1,33 @@
-{"id":"geo0000001","slug":null,"tag":"us-iran","slug_prefix":"us-x-iran","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"geo0000002","slug":null,"tag":"russia-ukraine","slug_prefix":"russia-ukraine","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"geo0000003","slug":null,"tag":"israel-hamas","slug_prefix":"israel-hamas","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"geo0000004","slug":null,"tag":"china-taiwan","slug_prefix":"china-taiwan","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"geo0000005","slug":null,"tag":"north-korea","slug_prefix":"north-korea","category":"Geopolitics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"pol0000001","slug":"trump-out-as-president-before-2027","tag":null,"slug_prefix":null,"category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"pol0000002","slug":null,"tag":"donald-trump","slug_prefix":"trump","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"pol0000003","slug":null,"tag":"us-elections","slug_prefix":"2026-midterm","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"pol0000004","slug":null,"tag":"us-congress","slug_prefix":"us-house","category":"Politics","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"ait0000001","slug":null,"tag":"artificial-intelligence","slug_prefix":"will-ai","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"ait0000002","slug":null,"tag":"openai","slug_prefix":"openai","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"ait0000003","slug":null,"tag":"elon-musk","slug_prefix":"elon-musk","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"ait0000004","slug":null,"tag":"spacex","slug_prefix":"spacex","category":"AI & Tech","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"fin0000001","slug":null,"tag":"bitcoin","slug_prefix":"bitcoin-above","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"fin0000002","slug":null,"tag":"ethereum","slug_prefix":"ethereum-above","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"fin0000003","slug":null,"tag":"federal-reserve","slug_prefix":"fed-rate","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
-{"id":"fin0000004","slug":null,"tag":"recession","slug_prefix":"us-recession","category":"Finance & Crypto","active":true,"created_at":"2026-03-21T00:00:00Z","updated_at":null}
+{"id":"1bbc1792f069abc6","slug":"ai-bubble-burst-by","tag":null,"slug_prefix":null,"category":"AI \u0026 Tech","active":true,"created_at":"2026-03-22T23:39:40Z","updated_at":"2026-03-22T23:39:40Z"}
+{"id":"20896244eb28d350","slug":"openai-ipo-by","tag":null,"slug_prefix":null,"category":"AI \u0026 Tech","active":true,"created_at":"2026-03-22T23:35:13Z","updated_at":"2026-03-22T23:35:13Z"}
+{"id":"4ab4ae9f8e1f3e5f","slug":"deepseek-v4-released-by-march-31","tag":null,"slug_prefix":null,"category":"AI \u0026 Tech","active":true,"created_at":"2026-03-22T23:35:04Z","updated_at":"2026-03-22T23:35:04Z"}
+{"id":"570136e8c73f4edb","slug":"claude-5-released-by","tag":null,"slug_prefix":null,"category":"AI \u0026 Tech","active":true,"created_at":"2026-03-22T23:39:45Z","updated_at":"2026-03-22T23:39:45Z"}
+{"id":"31dc78a1c7d60375","slug":"taylor-swift-pregnant-in-2025","tag":null,"slug_prefix":null,"category":"Entertainment","active":true,"created_at":"2026-03-22T23:39:58Z","updated_at":"2026-03-22T23:39:58Z"}
+{"id":"6ee9fd981a0a20a6","slug":"new-stranger-things-episode-released-by-wednesday","tag":null,"slug_prefix":null,"category":"Entertainment","active":true,"created_at":"2026-03-22T23:39:55Z","updated_at":"2026-03-22T23:39:55Z"}
+{"id":"0ca42e90802936db","slug":"kraken-ipo-in-2025","tag":null,"slug_prefix":null,"category":"Finance \u0026 Crypto","active":true,"created_at":"2026-03-22T23:39:53Z","updated_at":"2026-03-22T23:39:53Z"}
+{"id":"535386f25dc224dc","slug":"fed-rate-cut-by-629","tag":null,"slug_prefix":null,"category":"Finance \u0026 Crypto","active":true,"created_at":"2026-03-22T23:39:47Z","updated_at":"2026-03-22T23:39:47Z"}
+{"id":"77d9cd69549dd688","slug":"microstrategy-sell-any-bitcoin-in-2025","tag":null,"slug_prefix":null,"category":"Finance \u0026 Crypto","active":true,"created_at":"2026-03-22T23:35:20Z","updated_at":"2026-03-22T23:35:20Z"}
+{"id":"0117dda6315a9bd6","slug":"russia-x-ukraine-ceasefire-by-march-31-2026","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:17Z","updated_at":"2026-03-22T23:39:17Z"}
+{"id":"098a19cc48c8bedc","slug":"iran-leadership-change-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:03Z","updated_at":"2026-03-22T23:34:03Z"}
+{"id":"1c943e8b1047b19c","slug":"will-trump-acquire-greenland-before-2027","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:44Z","updated_at":"2026-03-22T23:34:44Z"}
+{"id":"25c8dcb1afeea6dc","slug":null,"tag":"israel","slug_prefix":"netanyahu-out","category":"Geopolitics","active":true,"created_at":"2026-03-22T23:38:48Z","updated_at":"2026-03-22T23:38:48Z"}
+{"id":"2b338625c54f8a9d","slug":"strait-of-hormuz-traffic-returns-to-normal-by-april-30","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:33Z","updated_at":"2026-03-22T23:34:33Z"}
+{"id":"2fafd2580abe1c32","slug":"us-forces-enter-iran-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:38:53Z","updated_at":"2026-03-22T23:38:53Z"}
+{"id":"31fa01909b1ba8dc","slug":"will-russia-capture-kostyantynivka-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:41Z","updated_at":"2026-03-22T23:34:41Z"}
+{"id":"4af2ff2f5119b031","slug":"will-reza-pahlavi-enter-iran-by-june-30","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:27Z","updated_at":"2026-03-22T23:39:27Z"}
+{"id":"4e1d48ef244d7b16","slug":"russia-x-ukraine-ceasefire-before-2027","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:11Z","updated_at":"2026-03-22T23:39:11Z"}
+{"id":"5272e75d458ff3c1","slug":"trump-announces-end-of-military-operations-against-iran-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:38:58Z","updated_at":"2026-03-22T23:38:58Z"}
+{"id":"57492f0cc2a399c4","slug":"will-france-uk-or-germany-strike-iran-by-june-30-259","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:05Z","updated_at":"2026-03-22T23:39:05Z"}
+{"id":"57f4c19b23c147f9","slug":"will-the-us-invade-venezuela-in-2025","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:28Z","updated_at":"2026-03-22T23:34:28Z"}
+{"id":"5840ac782e9a4bf1","slug":"us-strike-on-mexico-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:18Z","updated_at":"2026-03-22T23:34:18Z"}
+{"id":"638a33a7c82b1e0a","slug":null,"tag":"us-iran","slug_prefix":"will-the-us-invade-iran","category":"Geopolitics","active":true,"created_at":"2026-03-22T23:38:43Z","updated_at":"2026-03-22T23:38:43Z"}
+{"id":"78aedf484533bc5b","slug":null,"tag":"us-iran","slug_prefix":"us-x-iran-ceasefire","category":"Geopolitics","active":true,"created_at":"2026-03-22T23:33:56Z","updated_at":"2026-03-22T23:33:56Z"}
+{"id":"84bc166e5143c096","slug":null,"tag":"iranian-leadership-regime","slug_prefix":"will-the-iranian-regime-fall-by","category":"Geopolitics","active":true,"created_at":"2026-03-22T23:33:59Z","updated_at":"2026-03-22T23:33:59Z"}
+{"id":"8dcbfd87812d7e4d","slug":"xi-jinping-out-before-2027","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:29Z","updated_at":"2026-03-22T23:39:29Z"}
+{"id":"b769bf8b525f286a","slug":"russia-x-ukraine-ceasefire-by-june-30-2026","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:39:14Z","updated_at":"2026-03-22T23:39:14Z"}
+{"id":"b93b4d2fc6c836d4","slug":"will-china-invade-taiwan-before-2027","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:42Z","updated_at":"2026-03-22T23:34:42Z"}
+{"id":"ed6682dec99ff5f0","slug":"iran-x-israelus-conflict-ends-by","tag":null,"slug_prefix":null,"category":"Geopolitics","active":true,"created_at":"2026-03-22T23:34:14Z","updated_at":"2026-03-22T23:34:14Z"}
+{"id":"294327f33f89e31e","slug":"will-jesus-christ-return-before-2027","tag":null,"slug_prefix":null,"category":"Other","active":true,"created_at":"2026-03-22T23:35:30Z","updated_at":"2026-03-22T23:35:30Z"}
+{"id":"27ed7948142c9530","slug":"trump-out-as-president-before-2027","tag":null,"slug_prefix":null,"category":"Politics","active":true,"created_at":"2026-03-22T23:34:57Z","updated_at":"2026-03-22T23:34:57Z"}
+{"id":"43e3f934fdd9545b","slug":"scotus-accepts-sports-event-contract-case-by-july-31-2026","tag":null,"slug_prefix":null,"category":"Politics","active":true,"created_at":"2026-03-22T23:39:35Z","updated_at":"2026-03-22T23:39:35Z"}
+{"id":"6b0e0a6688f2d7e7","slug":"will-trump-visit-china-by","tag":null,"slug_prefix":null,"category":"Politics","active":true,"created_at":"2026-03-22T23:34:59Z","updated_at":"2026-03-22T23:34:59Z"}
