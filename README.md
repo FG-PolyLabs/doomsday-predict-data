@@ -1,101 +1,58 @@
-# bq-cr-gcs-git-architecture-data-template
+# doomsday-predict-data
 
-A generic template for the **BigQuery + Cloud Run + GCS + Git** data architecture — a pattern that keeps data permanently accessible even when GCP billing is disrupted, by treating this Git repository as the source of truth.
+Published data files for the **doomsday-predict** system. This repo is the static snapshot layer — data is written here by the backend and read by the frontend.
 
-## Architecture overview
+## Multi-Repo Project
 
-```
-┌─────────────────────────────────────────────────────┐
-│  Git repository  (this repo — always available)     │
-│  data/*.jsonl  ←  source of truth for all records   │
-└────────────────────────┬────────────────────────────┘
-                         │ GitHub Actions (on push to main)
-          ┌──────────────▼──────────────┐
-          │   Google Cloud Storage      │
-          │   gs://<bucket>/data/       │
-          └──────────────┬──────────────┘
-                         │ bq load
-          ┌──────────────▼──────────────┐
-          │        BigQuery             │
-          │   <dataset>.<table>         │
-          └──────────────┬──────────────┘
-                         │ SQL / REST API
-          ┌──────────────▼──────────────┐
-          │        Cloud Run            │
-          │   frontend / API service    │
-          └─────────────────────────────┘
-```
+This is one of three repos:
 
-**Why Git as source of truth?**
-GCP billing outages (or account suspensions) take down GCS, BigQuery, and Cloud Run simultaneously. Because all data is committed here, a separate static host or CDN can serve directly from the raw GitHub URLs with zero GCP dependency.
+| Repo | Purpose |
+|------|---------|
+| [doomsday-predict-frontend-admin](https://github.com/FG-PolyLabs/doomsday-predict-frontend-admin) | Admin UI (Hugo + Firebase Auth) |
+| [doomsday-predict-analytics](https://github.com/FG-PolyLabs/doomsday-predict-analytics) | Backend: Cloud Run API + scheduled jobs |
+| [doomsday-predict-data](https://github.com/FG-PolyLabs/doomsday-predict-data) | This repo — published JSON data files |
 
-## Repository layout
+## Contents
 
 ```
 .
-├── config.yaml              # GCP project, bucket, dataset, table names
 ├── data/
-│   └── items.jsonl          # Newline-delimited JSON data files (one per BQ table)
-├── schema/
-│   └── items.json           # BigQuery table schemas
-├── scripts/
-│   ├── sync_to_gcs.sh       # Upload data/ to GCS
-│   └── load_to_bq.sh        # Load from GCS into BigQuery
-└── .github/
-    └── workflows/
-        └── sync.yml         # CI: run both scripts on every push to main
+│   └── markets.jsonl       # Market configs (one JSON object per line)
+└── schema/
+    ├── markets.json         # BigQuery schema for the markets table
+    └── items.json           # BigQuery schema for the items table
 ```
 
-## Setup
+## Data Flow
 
-### 1. Fill in `config.yaml`
+Data in this repo is **written by the backend** and **read by the frontend** — it is never edited manually.
 
-Replace the placeholder values:
-
-```yaml
-gcp:
-  project_id: my-gcp-project
-
-gcs:
-  bucket: my-data-bucket
-  data_prefix: data/
-
-bigquery:
-  dataset: my_dataset
-  tables:
-    - items
+```
+BigQuery (doomsday.markets)
+    │
+    │  POST /api/v1/markets/export  (Cloud Run API)
+    ▼
+gs://fg-polylabs-doomsday/data/markets.jsonl   (GCS)
+    │
+    │  GitHub commit (via GitHub API)
+    ▼
+data/markets.jsonl   (this repo)
+    │
+    │  jsDelivr CDN  →  frontend GitHub source
+    │  GCS           →  frontend GCS source
+    ▼
+Admin UI (doomsday-predict-frontend-admin)
 ```
 
-### 2. Configure GitHub secrets
+To trigger an export, click **Sync GitHub/GCS** in the admin UI or call:
 
-| Secret | Value |
-|---|---|
-| `GCP_WORKLOAD_IDENTITY_PROVIDER` | Workload Identity provider resource name |
-| `GCP_SERVICE_ACCOUNT` | Service account email with Storage and BigQuery permissions |
-
-See [google-github-actions/auth](https://github.com/google-github-actions/auth) for how to set up keyless authentication via Workload Identity Federation.
-
-### 3. Add your data
-
-- Add `data/<table>.jsonl` files (one JSON object per line).
-- Add a matching `schema/<table>.json` BigQuery schema file.
-- Register the table name under `bigquery.tables` in `config.yaml`.
-
-### 4. Push to `main`
-
-The GitHub Actions workflow triggers automatically and syncs everything to GCS and BigQuery.
-
-## Running scripts locally
-
-```bash
-# Authenticate first
-gcloud auth application-default login
-
-pip install pyyaml
-
-bash scripts/sync_to_gcs.sh
-bash scripts/load_to_bq.sh
 ```
+POST /api/v1/markets/export
+```
+
+## GCS CORS
+
+The `gs://fg-polylabs-doomsday` bucket has CORS configured to allow `GET` from any origin so the frontend can fetch directly from the browser.
 
 ## License
 
